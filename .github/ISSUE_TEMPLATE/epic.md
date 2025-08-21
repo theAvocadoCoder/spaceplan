@@ -8,4 +8,4 @@ assignees: theAvocadoCoder
 ---
 
 | User Story | Acceptance Criteria | Effort |
-| ---------------- | ---------------------------- | -------- |
+| ---------- | ------------------- | ------ |
