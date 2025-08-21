@@ -7,8 +7,5 @@ assignees: theAvocadoCoder
 
 ---
 
-### Summary
-<!-- Short description -->
-
-### Objective
-<!-- Why this feature is needed -->
+| User Story | Acceptance Criteria | Effort |
+| ---------------- | ---------------------------- | -------- |
