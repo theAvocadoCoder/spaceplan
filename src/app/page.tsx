@@ -1,8 +1,14 @@
+"use client";
+
+import { Button } from "@chakra-ui/react";
+import { ColorModeButton } from "@/components/ui/color-mode";
 import Image from "next/image";
 import styles from "./page.module.css";
-import { ColorModeButton } from "@/components/ui/color-mode";
+import { useUIStore } from "@/lib/store";
 
 export default function Home() {
+  const { mode, toggleMode } = useUIStore();
+
   return (
     <div className={styles.page}>
       <ColorModeButton />
@@ -17,9 +23,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            We are currently in <code>{mode}</code> mode.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <Button onClick={toggleMode}>Toggle Mode!</Button>
         </ol>
 
         <div className={styles.ctas}>
