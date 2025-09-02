@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { ColorModeButton } from "@/components/ui/color-mode";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <ColorModeButton />
       <main className={styles.main}>
         <Image
           className={styles.logo}
