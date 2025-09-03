@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mid_century_lounge_chair",
+    "name": "Mid Century Lounge Chair",
+    "category": "Chair",
+    "width": 1009,
+    "depth": 1190,
+    "height": 1169,
+    "thumbnail": "https://cdn.polyhaven.com/asset_img/thumbs/mid_century_lounge_chair.png?format=png"
+  },
+  {
+    "id": "wooden_table_02",
+    "name": "Wooden Table 02",
+    "category": "Table",
+    "width": 1134,
+    "depth": 706,
+    "height": 800,
+    "thumbnail": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_table_02.png?format=png"
+  },
+  {
+    "id": "gothic_bed_01",
+    "name": "Gothic Bed 01",
+    "category": "Bed",
+    "width": 1494,
+    "depth": 2040,
+    "height": 1534,
+    "thumbnail": "https://cdn.polyhaven.com/asset_img/thumbs/gothic_bed_01.png?format=png"
+  }
+]
