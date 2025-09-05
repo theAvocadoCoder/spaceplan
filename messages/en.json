@@ -1,0 +1,15 @@
+{
+  "Home": {
+    "title": "SpacePlan",
+    "currentMode": "We are currently in <code>{mode}</code> mode.",
+    "toggleButton": "Toggle Dimension Mode!",
+    "footer": "Made with love by theAvocaodoCoder"
+  },
+  "NotFound": {
+    "message": "This page could not be found."
+  },
+  "Meta": {
+    "title": "SpacePlan",
+    "description": "Reimagine any room, right in your browser."
+  }
+} 
