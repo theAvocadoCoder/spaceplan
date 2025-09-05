@@ -1,7 +1,7 @@
 {
   "Home": {
     "title": "SpacePlan",
-    "currentMode": "Nous sommes actuellement en mode {mode}.",
+    "currentMode": "Nous sommes actuellement en mode <code>{mode}</code>.",
     "toggleButton": "Basculer le mode de dimension !",
     "footer": "Fait avec amour par theAvocaodoCoder"
   },
