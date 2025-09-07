@@ -1,12 +1,10 @@
 {
   "Home": {
-    "current_mode": "We are currently in <code>{mode}</code> mode.",
     "footer": "Made with love by theAvocaodoCoder",
     "Label": {
-      "form": "Set up your room!"
+      "new_room": "New Room"
     },
-    "title": "SpacePlan",
-    "toggle_button": "Toggle Dimension Mode!"
+    "title": "SpacePlan"
   },
   "Meta": {
     "title": "SpacePlan",
@@ -17,11 +15,15 @@
   },
   "Room": {
     "Label": {
+      "current_mode": "{mode} mode",
       "depth": "Depth",
       "description": "Description",
+      "form": "Form Settings",
       "name": "Name",
       "new_project": "New Project",
-      "submit": "Submit",
+      "save": "Save",
+      "toggle_mode": "Toggle Mode",
+      "tools": "Tools",
       "width": "Width"
     },
     "Placeholder": {
