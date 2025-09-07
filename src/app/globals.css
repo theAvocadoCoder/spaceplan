@@ -1,3 +1,8 @@
+:root {
+  --header-height: 3rem;
+  --footer-height: 2.5rem;
+}
+
 :root:has(html.light) {
   --background: #ffffff;
   --foreground: #171717;
@@ -26,11 +31,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
