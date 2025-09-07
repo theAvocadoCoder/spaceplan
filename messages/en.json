@@ -1,15 +1,43 @@
 {
   "Home": {
+    "current_mode": "We are currently in <code>{mode}</code> mode.",
+    "footer": "Made with love by theAvocaodoCoder",
+    "Label": {
+      "form": "Set up your room!"
+    },
     "title": "SpacePlan",
-    "currentMode": "We are currently in <code>{mode}</code> mode.",
-    "toggleButton": "Toggle Dimension Mode!",
-    "footer": "Made with love by theAvocaodoCoder"
-  },
-  "NotFound": {
-    "message": "This page could not be found."
+    "toggle_button": "Toggle Dimension Mode!"
   },
   "Meta": {
     "title": "SpacePlan",
     "description": "Reimagine any room, right in your browser."
+  },
+  "NotFound": {
+    "message": "This page could not be found."
+  },
+  "Room": {
+    "Label": {
+      "depth": "Depth",
+      "description": "Description",
+      "name": "Name",
+      "new_project": "New Project",
+      "submit": "Submit",
+      "width": "Width"
+    },
+    "Placeholder": {
+      "description": "Describe your project",
+      "name": "The name of your Project"
+    },
+    "Validation": {
+      "invalid_input": "Please enter a valid number",
+      "depth": {
+        "min": "Depth must be at least {min} m",
+        "max": "Depth must be at most {max} m"
+      },
+      "width": {
+        "min": "Width must be at least {min} m",
+        "max": "Width must be at most {max} m"
+      }
+    }
   }
 } 

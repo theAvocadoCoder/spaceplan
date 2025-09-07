@@ -3,6 +3,7 @@
 import { Button } from "@chakra-ui/react";
 import { useTranslations } from "next-intl";
 
+import { RoomForm } from "@/components/room/RoomForm";
 import { ColorModeButton } from "@/components/ui/color-mode";
 import { useUIStore } from "@/lib/store";
 import styles from "./page.module.css";
@@ -18,15 +19,17 @@ export default function Home() {
         <ColorModeButton />
       </header>
       <main className={styles.main}>
-        <p>
+        {/* <p>
           <span>
-            {t.rich("currentMode", { 
+            {t.rich("current_mode", { 
               code: (chunks) => <code>{chunks}</code>,
               mode
             })}
           </span>
-          <Button onClick={toggleMode}>{t("toggleButton")}</Button>
-        </p>
+          <Button px="2" onClick={toggleMode}>{t("toggle_button")}</Button>
+        </p> */}
+        <h2>{t("Label.form")}</h2>
+        <RoomForm />
       </main>
       <footer className={styles.footer}>
         <p>{t("footer")}</p>
