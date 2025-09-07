@@ -120,7 +120,7 @@ export const RoomForm = () => {
         </Field.Root>
       </Stack>
 
-      <Button size="md" type="submit" mt="4" px="2">{t("Label.submit")}</Button>
+      <Button size="md" type="submit" mt="4" px="2">{t("Label.save")}</Button>
     </form>
   )
 }

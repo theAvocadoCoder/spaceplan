@@ -1,11 +1,11 @@
 import { create } from "zustand";
 
 interface UIState {
-  mode: "3d" | "2d",
+  mode: "3D" | "2D",
   toggleMode: () => void,
 }
 
 export const useUIStore = create<UIState>((set) => ({
-  mode: "2d",
-  toggleMode: () => set((state) => ({ mode: state.mode === "2d" ? "3d" : "2d" }))
+  mode: "2D",
+  toggleMode: () => set((state) => ({ mode: state.mode === "2D" ? "3D" : "2D" }))
 }))
