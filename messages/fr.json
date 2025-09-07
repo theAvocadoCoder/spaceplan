@@ -1,15 +1,43 @@
 {
   "Home": {
+    "current_mode": "Nous sommes actuellement en mode <code>{mode}</code>.",
+    "footer": "Fait avec amour par theAvocaodoCoder",
+    "Label": {
+      "form": "Configurez votre pièce !"
+    },
     "title": "SpacePlan",
-    "currentMode": "Nous sommes actuellement en mode <code>{mode}</code>.",
-    "toggleButton": "Basculer le mode de dimension !",
-    "footer": "Fait avec amour par theAvocaodoCoder"
-  },
-  "NotFound": {
-    "message": "Cette page est introuvable."
+    "toggle_button": "Basculer le mode de dimension !"
   },
   "Meta": {
     "title": "SpacePlan",
     "description": "Réinventez n'importe quelle pièce, directement dans votre navigateur."
+  },
+  "NotFound": {
+    "message": "Cette page est introuvable."
+  },
+  "Room": {
+    "Label": {
+      "depth": "Profondeur",
+      "description": "Description",
+      "name": "Nom",
+      "new_project": "Nouveau projet",
+      "submit": "Valider",
+      "width": "Largeur"
+    },
+    "Placeholder": {
+      "description": "Décrivez votre projet",
+      "name": "Le nom de votre projet"
+    },
+    "Validation": {
+      "invalid_input": "Veuillez entrer un nombre valide",
+      "depth": {
+        "min": "La profondeur doit être d'au moins {min} m",
+        "max": "La profondeur doit être d'au plus {max} m"
+      },
+      "width": {
+        "min": "La largeur doit être d'au moins {min} m",
+        "max": "La largeur doit être d'au plus {max} m"
+      }
+    }
   }
 } 
