@@ -1,0 +1,19 @@
+.header, .footer {
+  display: flex;
+  padding: .75rem 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  justify-content: space-between;
+  height: var(--header-height);
+  position: sticky;
+  z-index: 20;
+  top: 0;
+}
+
+.footer {
+  justify-content: center;
+  height: var(--footer-height);
+}
