@@ -1,12 +1,13 @@
 {
   "Home": {
-    "current_mode": "Nous sommes actuellement en mode <code>{mode}</code>.",
     "footer": "Fait avec amour par theAvocaodoCoder",
     "Label": {
-      "form": "Configurez votre pièce !"
+      "new_room": "Nouvelle Pièce"
     },
-    "title": "SpacePlan",
-    "toggle_button": "Basculer le mode de dimension !"
+    "title": "SpacePlan"
+  },
+  "Language": {
+    "selector_label": "Sélectionner la langue"
   },
   "Meta": {
     "title": "SpacePlan",
@@ -17,11 +18,15 @@
   },
   "Room": {
     "Label": {
+      "current_mode": "Mode {mode}",
       "depth": "Profondeur",
       "description": "Description",
+      "form": "Paramètres du Formulaire",
       "name": "Nom",
-      "new_project": "Nouveau projet",
-      "submit": "Valider",
+      "new_project": "Nouveau Projet",
+      "save": "Enregistrer",
+      "toggle_mode": "Basculer le Mode",
+      "tools": "Outils",
       "width": "Largeur"
     },
     "Placeholder": {
@@ -40,4 +45,4 @@
       }
     }
   }
-} 
+}

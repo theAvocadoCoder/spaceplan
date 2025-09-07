@@ -1,32 +1,37 @@
 {
   "Home": {
-    "current_mode": "We are currently in <code>{mode}</code> mode.",
     "footer": "Made with love by theAvocaodoCoder",
     "Label": {
-      "form": "Set up your room!"
+      "new_room": "New Room"
     },
-    "title": "SpacePlan",
-    "toggle_button": "Toggle Dimension Mode!"
+    "title": "SpacePlan"
+  },
+  "Language": {
+    "selector_label": "Select language"
   },
   "Meta": {
     "title": "SpacePlan",
-    "description": "Reimagine any room, right in your browser."
+    "description": "Reimagine any room, directly in your browser."
   },
   "NotFound": {
     "message": "This page could not be found."
   },
   "Room": {
     "Label": {
+      "current_mode": "{mode} mode",
       "depth": "Depth",
       "description": "Description",
+      "form": "Form Settings",
       "name": "Name",
       "new_project": "New Project",
-      "submit": "Submit",
+      "save": "Save",
+      "toggle_mode": "Toggle Mode",
+      "tools": "Tools",
       "width": "Width"
     },
     "Placeholder": {
       "description": "Describe your project",
-      "name": "The name of your Project"
+      "name": "Your project name"
     },
     "Validation": {
       "invalid_input": "Please enter a valid number",
@@ -40,4 +45,4 @@
       }
     }
   }
-} 
+}

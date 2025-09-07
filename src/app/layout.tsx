@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { getMessages, getLocale, getTranslations } from "next-intl/server";
-import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
+import { getLocale, getMessages, getTranslations } from "next-intl/server";
+
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import {Provider} from '@/components/ui/provider'; 
-import QueryProviders from './query-providers';
+import "./globals.css";
+import styles from "./layout.module.css";
+import QueryProviders from "./query-providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +41,13 @@ export default async function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider messages={messages} locale={locale} timeZone="UTC">
           <QueryProviders>
-            <Provider>{children}</Provider>
+            <Provider>
+              <Header />
+              <main className={styles.main}>
+                { children }
+              </main>
+              <Footer />
+            </Provider>
           </QueryProviders>
         </NextIntlClientProvider>
       </body>
