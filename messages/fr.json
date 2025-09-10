@@ -1,15 +1,48 @@
 {
   "Home": {
-    "title": "SpacePlan",
-    "currentMode": "Nous sommes actuellement en mode {mode}.",
-    "toggleButton": "Basculer le mode de dimension !",
-    "footer": "Fait avec amour par theAvocaodoCoder"
+    "footer": "Fait avec amour par theAvocaodoCoder",
+    "Label": {
+      "new_room": "Nouvelle Pièce"
+    },
+    "title": "SpacePlan"
   },
-  "NotFound": {
-    "message": "Cette page est introuvable."
+  "Language": {
+    "selector_label": "Sélectionner la langue"
   },
   "Meta": {
     "title": "SpacePlan",
     "description": "Réinventez n'importe quelle pièce, directement dans votre navigateur."
+  },
+  "NotFound": {
+    "message": "Cette page est introuvable."
+  },
+  "Room": {
+    "Label": {
+      "current_mode": "Mode {mode}",
+      "depth": "Profondeur",
+      "description": "Description",
+      "form": "Paramètres du Formulaire",
+      "name": "Nom",
+      "new_project": "Nouveau Projet",
+      "save": "Enregistrer",
+      "toggle_mode": "Basculer le Mode",
+      "tools": "Outils",
+      "width": "Largeur"
+    },
+    "Placeholder": {
+      "description": "Décrivez votre projet",
+      "name": "Le nom de votre projet"
+    },
+    "Validation": {
+      "invalid_input": "Veuillez entrer un nombre valide",
+      "depth": {
+        "min": "La profondeur doit être d'au moins {min} m",
+        "max": "La profondeur doit être d'au plus {max} m"
+      },
+      "width": {
+        "min": "La largeur doit être d'au moins {min} m",
+        "max": "La largeur doit être d'au plus {max} m"
+      }
+    }
   }
-} 
+}
