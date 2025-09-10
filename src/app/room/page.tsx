@@ -4,6 +4,7 @@ import { HStack, Switch, Text, VStack } from "@chakra-ui/react";
 import { useTranslations } from "next-intl";
 import { Rnd } from "react-rnd";
 
+import { RoomCanvas } from "@/components/room/RoomCanvas";
 import { RoomForm } from "@/components/room/RoomForm";
 import { useUIStore } from "@/lib/store";
 import styles from "./room.module.css";
@@ -42,7 +43,9 @@ export default function Home() {
           <RoomForm />
         </VStack>
       </Rnd>
-      <div className={styles.room_canvas}></div>
+      <div className={styles.room_canvas}>
+        <RoomCanvas />
+      </div>
       <div className={styles.room_tools}>
         <Text>{t("Label.tools")}</Text>
       </div>

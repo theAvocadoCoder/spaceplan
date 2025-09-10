@@ -9,11 +9,11 @@ import { z } from "zod";
 
 export const createRoomSchema = z.object({
   width: z.number()
-    .min(1, { message: "Validation.width.min/min/1" })
-    .max(30, { message: "Validation.width.max/max/30" }),
+    .min(10, { message: "Validation.width.min/min/10" })
+    .max(100, { message: "Validation.width.max/max/100" }),
   depth: z.number()
-    .min(1, { message: "Validation.depth.min/min/1" })
-    .max(30, { message: "Validation.depth.max/max/30" }),
+    .min(10, { message: "Validation.depth.min/min/10" })
+    .max(100, { message: "Validation.depth.max/max/100" }),
   name: z.string().optional(),
   description: z.string().optional(),
 })

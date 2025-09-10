@@ -7,24 +7,30 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useTranslations } from "next-intl";
 import { Controller, type SubmitHandler, useForm } from "react-hook-form";
 
+import { useUIStore } from "@/lib/store";
 import { errorMessageParser } from "@/lib/utils";
 import { createRoomSchema, type RoomSchema } from "@/schemas/room";
 
 export const RoomForm = () => {
   const t = useTranslations("Room");
+  const { editRoom } = useUIStore();
   
   const { control, handleSubmit, formState: { errors } } = useForm<RoomSchema>({
     resolver: zodResolver(createRoomSchema),
     mode: "onChange",
     defaultValues: {
-      width: 1,
-      depth: 1,
+      width: 10,
+      depth: 10,
       name: t("Label.new_project")
     }
   });
 
   const onSubmit: SubmitHandler<RoomSchema> = (data) => {
-    console.log(data);
+    console.log(data) 
+    let field: keyof RoomSchema
+    for (field in data) {
+      editRoom(field, data[field])
+    }
   }; 
 
   const parseErrorMessage = (errMessage: string | undefined) => {
@@ -50,7 +56,7 @@ export const RoomForm = () => {
             control={control}
             render={({ field }) => (
               <NumberInput.Root
-                min={1} max={30}
+                min={10} max={100}
                 disabled={field.disabled}
                 name={field.name}
                 value={field.value?.toString() ?? ""}
@@ -77,7 +83,7 @@ export const RoomForm = () => {
             control={control}
             render={({ field }) => (
               <NumberInput.Root
-                min={1} max={30}
+                min={10} max={100}
                 disabled={field.disabled}
                 name={field.name}
                 value={field.value?.toString() ?? ""}
